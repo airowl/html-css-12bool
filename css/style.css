@@ -8,3 +8,16 @@
     height: 50px;
     padding: 15px 0;
 }
+
+.green{
+    background-color: greenyellow;
+    border: 1px solid deepskyblue;
+}
+
+.box-nested{
+    border: 1px solid white;
+    background-color: deepskyblue;
+    color: white;
+    height: auto;
+    padding: 15px;
+}
