@@ -17,6 +17,16 @@
     flex-wrap: wrap;
 }
 
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+[class*="col-"]{
+    flex: 0 0 auto;     /* flex-shirnk: 0 - flex-grow: 0 - flex-basis: auto */
+}
+
 .col-xs-1{
     width: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
