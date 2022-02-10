@@ -1,0 +1,22 @@
+/* boxes */
+
+.box{
+    height: 50px;
+    width: 100%;
+}
+
+.black{
+    background-color: black;
+}
+
+.yellow{
+    background-color: #f1dc05;
+}
+
+.red{
+    background-color: #e60e0f;
+}
+
+.brown{
+    background-color: #c9440c;
+}
